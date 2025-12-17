@@ -1,0 +1,947 @@
+[
+  {
+    "question": "What is the main purpose of normalization?",
+    "options": [
+      "To reduce noise",
+      "To scale features to a similar range",
+      "To remove outliers",
+      "To increase variance"
+    ],
+    "answer": "To scale features to a similar range",
+    "category": "Data Preprocessing",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which algorithm is best suited for binary classification?",
+    "options": [
+      "K-Means",
+      "Linear Regression",
+      "Logistic Regression",
+      "PCA"
+    ],
+    "answer": "Logistic Regression",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs well on training and test data",
+      "Model performs poorly on both training and test data",
+      "Model memorizes training data and performs poorly on test data",
+      "Model performs well only on test data"
+    ],
+    "answer": "Model memorizes training data and performs poorly on test data",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which metric is best for imbalanced classification?",
+    "options": ["Accuracy", "Precision", "Recall", "AUC"],
+    "answer": "AUC",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does TF-IDF measure?",
+    "options": [
+      "Term frequency importance across documents",
+      "Topic distribution",
+      "Sentence similarity",
+      "Sequence alignment"
+    ],
+    "answer": "Term frequency importance across documents",
+    "category": "NLP",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which algorithm uses entropy or Gini impurity?",
+    "options": ["KNN", "Decision Trees", "SVM", "K-Means"],
+    "answer": "Decision Trees",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the purpose of Dropout in neural networks?",
+    "options": [
+      "To increase model size",
+      "To prevent overfitting",
+      "To reduce learning rate",
+      "To improve activation values"
+    ],
+    "answer": "To prevent overfitting",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SQL clause removes duplicate rows?",
+    "options": ["GROUP BY", "UNIQUE", "DISTINCT", "FILTER"],
+    "answer": "DISTINCT",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which distribution is commonly used to model count data?",
+    "options": ["Poisson", "Normal", "Uniform", "Gamma"],
+    "answer": "Poisson",
+    "category": "Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does RMSE stand for?",
+    "options": [
+      "Relative Mean Squared Error",
+      "Root Mean Squared Error",
+      "Random Mean Sample Error",
+      "Root Model Sample Error"
+    ],
+    "answer": "Root Mean Squared Error",
+    "category": "Model Evaluation",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Which technique reduces data dimensionality?",
+    "options": ["PCA", "Random Forest", "SVM", "Lasso Regression"],
+    "answer": "PCA",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a confusion matrix used for?",
+    "options": [
+      "Analyzing clustering quality",
+      "Evaluating classification results",
+      "Checking correlation",
+      "Visualizing regression error"
+    ],
+    "answer": "Evaluating classification results",
+    "category": "Model Evaluation",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "ReLU is commonly used because:",
+    "options": [
+      "It saturates at high values",
+      "It allows faster training",
+      "It outputs only negative values",
+      "It prevents vanishing gradients completely"
+    ],
+    "answer": "It allows faster training",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which plot helps detect outliers?",
+    "options": ["Line plot", "Box plot", "Heatmap", "Area chart"],
+    "answer": "Box plot",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does K represent in KNN?",
+    "options": [
+      "Number of clusters",
+      "Number of nearest neighbors",
+      "Kernel type",
+      "Dimension size"
+    ],
+    "answer": "Number of nearest neighbors",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Gradient Descent works by:",
+    "options": [
+      "Increasing error at each step",
+      "Moving towards the direction of steepest descent",
+      "Randomly jumping across space",
+      "Removing correlated features"
+    ],
+    "answer": "Moving towards the direction of steepest descent",
+    "category": "Optimization",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which activation function outputs values between 0 and 1?",
+    "options": ["ReLU", "Tanh", "Sigmoid", "Softmax"],
+    "answer": "Sigmoid",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which SQL operation combines rows from two tables based on a condition?",
+    "options": ["GROUP BY", "JOIN", "ORDER BY", "UNION"],
+    "answer": "JOIN",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which model is most sensitive to feature scaling?",
+    "options": ["Decision Trees", "Naive Bayes", "KNN", "Random Forest"],
+    "answer": "KNN",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is the curse of dimensionality?",
+    "options": [
+      "Too much missing data",
+      "Performance decreases as number of features increases",
+      "Training takes too long",
+      "Too many classes"
+    ],
+    "answer": "Performance decreases as number of features increases",
+    "category": "Data Preprocessing",
+    "difficulty": "Hard"
+  },
+
+  {
+    "question": "Which model uses support vectors?",
+    "options": ["KNN", "SVM", "Random Forest", "Naive Bayes"],
+    "answer": "SVM",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is a hyperparameter?",
+    "options": [
+      "A parameter learned during training",
+      "A parameter set before training",
+      "The model output",
+      "The loss function"
+    ],
+    "answer": "A parameter set before training",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does softmax do?",
+    "options": [
+      "Normalizes values to sum to 1",
+      "Scales features",
+      "Reduces overfitting",
+      "Removes noise"
+    ],
+    "answer": "Normalizes values to sum to 1",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which database type is best for unstructured text?",
+    "options": ["SQL", "Graph DB", "NoSQL", "Relational DB"],
+    "answer": "NoSQL",
+    "category": "Databases",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is batch size?",
+    "options": [
+      "Number of neurons",
+      "Number of samples processed before updating weights",
+      "Number of layers",
+      "Number of classes"
+    ],
+    "answer": "Number of samples processed before updating weights",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does L1 regularization promote?",
+    "options": ["Large weights", "Sparsity", "Smoothness", "High variance"],
+    "answer": "Sparsity",
+    "category": "Optimization",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which plot shows correlation?",
+    "options": ["Pie chart", "Scatter plot", "Bar chart", "Line plot"],
+    "answer": "Scatter plot",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ML model is an ensemble method?",
+    "options": ["Logistic Regression", "KNN", "Random Forest", "SVM"],
+    "answer": "Random Forest",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is tokenization?",
+    "options": [
+      "Removing noise from images",
+      "Splitting text into smaller units",
+      "Converting numbers to strings",
+      "Clustering similar words"
+    ],
+    "answer": "Splitting text into smaller units",
+    "category": "NLP",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Which method is used to balance imbalanced datasets?",
+    "options": ["SMOTE", "PCA", "MinMax Scaling", "Cross-validation"],
+    "answer": "SMOTE",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which loss function is used for regression?",
+    "options": ["Cross-entropy", "Binary loss", "MSE", "Log loss"],
+    "answer": "MSE",
+    "category": "Model Evaluation",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which concept refers to how far data points are spread out?",
+    "options": ["Mean", "Variance", "Median", "Mode"],
+    "answer": "Variance",
+    "category": "Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which technique removes multicollinearity?",
+    "options": ["Scaling", "Regularization", "Feature selection", "Imputation"],
+    "answer": "Feature selection",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does an ROC curve plot?",
+    "options": [
+      "FPR vs TPR",
+      "Precision vs Recall",
+      "Error vs Accuracy",
+      "Loss vs Epoch"
+    ],
+    "answer": "FPR vs TPR",
+    "category": "Model Evaluation",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which algorithm clusters based on density?",
+    "options": ["K-Means", "Hierarchical", "DBSCAN", "PCA"],
+    "answer": "DBSCAN",
+    "category": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which model is best for sequential data?",
+    "options": ["CNN", "RNN", "SVM", "KNN"],
+    "answer": "RNN",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SQL command deletes a table?",
+    "options": ["DROP", "DELETE", "ERASE", "CLEAR"],
+    "answer": "DROP",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is recall?",
+    "options": [
+      "TP / (TP + FN)",
+      "TP / (TP + FP)",
+      "TN / (TN + FP)",
+      "FP / (TP + TN)"
+    ],
+    "answer": "TP / (TP + FN)",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which model is prone to vanishing gradients?",
+    "options": ["CNN", "RNN", "Random Forest", "XGBoost"],
+    "answer": "RNN",
+    "category": "Deep Learning",
+    "difficulty": "Hard"
+  },
+
+  {
+    "question": "Which library is commonly used for data manipulation in Python?",
+    "options": ["NumPy", "Pandas", "Matplotlib", "TensorFlow"],
+    "answer": "Pandas",
+    "category": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does one-hot encoding do?",
+    "options": [
+      "Scales numeric features",
+      "Reduces dimensionality",
+      "Converts categories into binary vectors",
+      "Removes missing values"
+    ],
+    "answer": "Converts categories into binary vectors",
+    "category": "Data Preprocessing",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which metric is used for clustering evaluation?",
+    "options": ["Silhouette Score", "RMSE", "AUC", "Recall"],
+    "answer": "Silhouette Score",
+    "category": "Model Evaluation",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which neural network is best for images?",
+    "options": ["RNN", "CNN", "LSTM", "GAN"],
+    "answer": "CNN",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which SQL command is used to filter rows?",
+    "options": ["FILTER", "WHERE", "SELECT", "GROUP BY"],
+    "answer": "WHERE",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which method reduces model variance?",
+    "options": ["Bagging", "PCA", "Scaling", "Encoding"],
+    "answer": "Bagging",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which technique is used for text embeddings?",
+    "options": ["Word2Vec", "PCA", "XGBoost", "ARIMA"],
+    "answer": "Word2Vec",
+    "category": "NLP",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does ARIMA model?",
+    "options": [
+      "Image classification",
+      "Time series forecasting",
+      "Clustering",
+      "Energy consumption"
+    ],
+    "answer": "Time series forecasting",
+    "category": "Time Series",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the main purpose of a learning rate?",
+    "options": [
+      "Controls how fast weights are updated",
+      "Controls dataset size",
+      "Controls batch size",
+      "Controls number of layers"
+    ],
+    "answer": "Controls how fast weights are updated",
+    "category": "Optimization",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which library is used for visualization in Python?",
+    "options": ["Pandas", "TensorFlow", "Matplotlib", "SciPy"],
+    "answer": "Matplotlib",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the primary purpose of feature engineering?",
+    "options": ["Improve model accuracy", "Reduce dataset size", "Increase training time", "Generate labels"],
+    "answer": "Improve model accuracy",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which algorithm is an example of a linear model?",
+    "options": ["Random Forest", "Logistic Regression", "K-Means", "DBSCAN"],
+    "answer": "Logistic Regression",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does the sigmoid function output?",
+    "options": ["Values from -1 to 1", "Values from 0 to 1", "Binary labels", "Class probabilities"],
+    "answer": "Values from 0 to 1",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which SQL keyword selects unique values?",
+    "options": ["ONLY", "UNIQUE", "DISTINCT", "SEPARATE"],
+    "answer": "DISTINCT",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does the F1-score represent?",
+    "options": ["Average of precision and accuracy", "Harmonic mean of precision and recall", "Geometric mean of recall and accuracy", "Sum of all metrics"],
+    "answer": "Harmonic mean of precision and recall",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which process reduces variance but increases bias?",
+    "options": ["Bagging", "Boosting", "Underfitting", "Regularization"],
+    "answer": "Regularization",
+    "category": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which distribution is symmetrical and bell-shaped?",
+    "options": ["Poisson", "Exponential", "Normal", "Gamma"],
+    "answer": "Normal",
+    "category": "Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which learning method requires labeled data?",
+    "options": ["Unsupervised learning", "Semi-supervised learning", "Reinforcement learning", "Supervised learning"],
+    "answer": "Supervised learning",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which model is best for anomaly detection?",
+    "options": ["Isolation Forest", "Linear Regression", "Logistic Regression", "K-Means"],
+    "answer": "Isolation Forest",
+    "category": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which Python library is used for numerical computing?",
+    "options": ["NumPy", "Flask", "Scikit-learn", "Pillow"],
+    "answer": "NumPy",
+    "category": "Python",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "What does the null hypothesis usually state?",
+    "options": ["Variables are correlated", "No significant relationship exists", "The model is accurate", "The sample is biased"],
+    "answer": "No significant relationship exists",
+    "category": "Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which deep learning optimizer adapts learning rates per parameter?",
+    "options": ["SGD", "Adam", "Momentum", "Adagrad"],
+    "answer": "Adam",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which clustering method builds a hierarchy?",
+    "options": ["DBSCAN", "K-Means", "Hierarchical Clustering", "GMM"],
+    "answer": "Hierarchical Clustering",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does a low p-value indicate?",
+    "options": ["Weak evidence against H0", "Strong evidence against H0", "High correlation", "Low variance"],
+    "answer": "Strong evidence against H0",
+    "category": "Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which SQL operation combines results from two queries?",
+    "options": ["JOIN", "UNION", "GROUP BY", "MERGE"],
+    "answer": "UNION",
+    "category": "SQL",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which activation function can cause vanishing gradients?",
+    "options": ["ReLU", "Sigmoid", "Leaky ReLU", "Softmax"],
+    "answer": "Sigmoid",
+    "category": "Deep Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which metric measures how far predictions are from actual values?",
+    "options": ["Precision", "Recall", "MSE", "F1-score"],
+    "answer": "MSE",
+    "category": "Model Evaluation",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which library is widely used for gradient boosting?",
+    "options": ["NumPy", "XGBoost", "Pandas", "Keras"],
+    "answer": "XGBoost",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What does tokenization do in NLP?",
+    "options": ["Detects sentiment", "Splits text into units", "Reduces dimensions", "Removes stopwords"],
+    "answer": "Splits text into units",
+    "category": "NLP",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which plot is best for visualizing pairwise correlations?",
+    "options": ["Box plot", "Pie chart", "Heatmap", "Histogram"],
+    "answer": "Heatmap",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Which term describes how much two variables move together?",
+    "options": ["Skewness", "Kurtosis", "Covariance", "Entropy"],
+    "answer": "Covariance",
+    "category": "Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ML algorithm is most sensitive to outliers?",
+    "options": ["Decision Tree", "KNN", "Random Forest", "Naive Bayes"],
+    "answer": "KNN",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which time-series component displays repeating patterns?",
+    "options": ["Noise", "Trend", "Seasonality", "Irregularity"],
+    "answer": "Seasonality",
+    "category": "Time Series",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does gradient clipping prevent?",
+    "options": ["Overfitting", "Exploding gradients", "Underfitting", "Low variance"],
+    "answer": "Exploding gradients",
+    "category": "Deep Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which SQL clause groups rows?",
+    "options": ["WHERE", "ORDER BY", "GROUP BY", "SELECT"],
+    "answer": "GROUP BY",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does TF-IDF penalize?",
+    "options": ["Rare words", "Common words", "Long sentences", "Tokens"],
+    "answer": "Common words",
+    "category": "NLP",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which model performs well with high-dimensional sparse data?",
+    "options": ["Decision Tree", "Naive Bayes", "KNN", "CNN"],
+    "answer": "Naive Bayes",
+    "category": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which distribution models waiting times?",
+    "options": ["Binomial", "Exponential", "Normal", "Poisson"],
+    "answer": "Exponential",
+    "category": "Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "What is the purpose of batch normalization?",
+    "options": ["Increase accuracy", "Reduce overfitting", "Stabilize training", "Remove missing values"],
+    "answer": "Stabilize training",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What type of data does a bar chart typically display?",
+    "options": ["Categorical", "Time-series", "Continuous", "Geospatial"],
+    "answer": "Categorical",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+
+  {
+    "question": "Which ML technique creates synthetic samples?",
+    "options": ["PCA", "SMOTE", "SVD", "MinMax Scaling"],
+    "answer": "SMOTE",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which function is used to compute eigenvalues?",
+    "options": ["exp()", "eig()", "sum()", "mean()"],
+    "answer": "eig()",
+    "category": "Math for DS",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which SQL join returns only matching rows?",
+    "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+    "answer": "INNER JOIN",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which term describes data with no specific order?",
+    "options": ["Ordinal", "Nominal", "Continuous", "Interval"],
+    "answer": "Nominal",
+    "category": "Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which technique reduces overfitting?",
+    "options": ["Early stopping", "Increasing epochs", "Increasing model size", "Ignoring noise"],
+    "answer": "Early stopping",
+    "category": "Deep Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which ML model uses weak learners?",
+    "options": ["SVM", "Bagging", "Boosting", "KNN"],
+    "answer": "Boosting",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is A/B testing used for?",
+    "options": ["Clustering users", "Comparing versions", "Predicting clicks", "Detecting anomalies"],
+    "answer": "Comparing versions",
+    "category": "Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which metric detects multicollinearity?",
+    "options": ["AUC", "VIF", "F1-score", "RMSE"],
+    "answer": "VIF",
+    "category": "Data Preprocessing",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which file format stores columnar data?",
+    "options": ["CSV", "JSON", "PARQUET", "TXT"],
+    "answer": "PARQUET",
+    "category": "Data Engineering",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which tool is used for workflow orchestration?",
+    "options": ["Airflow", "Pandas", "XGBoost", "NumPy"],
+    "answer": "Airflow",
+    "category": "MLOps",
+    "difficulty": "Medium"
+  },
+
+  {
+    "question": "Which concept refers to the ability of a model to generalize?",
+    "options": ["Overfitting", "Bias", "Variance", "Generalization"],
+    "answer": "Generalization",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which neural network architecture is used for images?",
+    "options": ["RNN", "CNN", "LSTM", "Transformer"],
+    "answer": "CNN",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which Python structure stores key-value pairs?",
+    "options": ["List", "Tuple", "Dictionary", "Set"],
+    "answer": "Dictionary",
+    "category": "Python",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which sampling technique ensures equal representation?",
+    "options": ["Random sampling", "Stratified sampling", "Cluster sampling", "Systematic sampling"],
+    "answer": "Stratified sampling",
+    "category": "Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which feature selection method uses p-values?",
+    "options": ["Tree-based selection", "Filter method", "Backward elimination", "PCA"],
+    "answer": "Backward elimination",
+    "category": "Data Preprocessing",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SQL function counts rows?",
+    "options": ["COUNT()", "SUM()", "LEN()", "ROWS()"],
+    "answer": "COUNT()",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which type of learning involves agents and rewards?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Semi-supervised"],
+    "answer": "Reinforcement",
+    "category": "Machine Learning",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which ML algorithm assumes feature independence?",
+    "options": ["SVM", "Random Forest", "Naive Bayes", "KNN"],
+    "answer": "Naive Bayes",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which metric is used for ranking tasks?",
+    "options": ["RMSE", "MAP", "R²", "MSE"],
+    "answer": "MAP",
+    "category": "Model Evaluation",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which NLP model uses attention mechanisms?",
+    "options": ["LSTM", "RNN", "Transformer", "CNN"],
+    "answer": "Transformer",
+    "category": "NLP",
+    "difficulty": "Hard"
+  },
+
+  {
+    "question": "Which Python library is best for visualizing distributions?",
+    "options": ["Seaborn", "Flask", "TensorFlow", "Statsmodels"],
+    "answer": "Seaborn",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SQL clause filters aggregated results?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "HAVING",
+    "category": "SQL",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which ML method reduces dimensionality?",
+    "options": ["PCA", "Bagging", "Boosting", "SMOTE"],
+    "answer": "PCA",
+    "category": "Data Preprocessing",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does kurtosis measure?",
+    "options": ["Center of data", "Peakness of distribution", "Correlation strength", "Variance"],
+    "answer": "Peakness of distribution",
+    "category": "Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which time-series model handles seasonality?",
+    "options": ["AR", "I", "MA", "SARIMA"],
+    "answer": "SARIMA",
+    "category": "Time Series",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which loss is used for binary classification?",
+    "options": ["MSE", "Poisson loss", "Binary crossentropy", "Huber loss"],
+    "answer": "Binary crossentropy",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which deep learning layer extracts spatial features?",
+    "options": ["Dense", "Conv2D", "Embedding", "LSTM"],
+    "answer": "Conv2D",
+    "category": "Deep Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What does label encoding convert?",
+    "options": ["Categories to integers", "Integers to labels", "Text to embeddings", "Images to grayscale"],
+    "answer": "Categories to integers",
+    "category": "Data Preprocessing",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which model is used for topic modeling?",
+    "options": ["Word2Vec", "LDA", "BERT", "TF-IDF"],
+    "answer": "LDA",
+    "category": "NLP",
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Which technique measures feature importance?",
+    "options": ["Confusion matrix", "SHAP values", "ROC curve", "Box plot"],
+    "answer": "SHAP values",
+    "category": "Model Evaluation",
+    "difficulty": "Hard"
+  },
+
+  {
+    "question": "Which data type increases exponentially with scale?",
+    "options": ["Geospatial data", "Text data", "Image data", "Time-series data"],
+    "answer": "Image data",
+    "category": "Data Engineering",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which architecture powers GPT models?",
+    "options": ["CNN", "RNN", "Transformer", "GAN"],
+    "answer": "Transformer",
+    "category": "NLP",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which SQL command creates a new table?",
+    "options": ["INSERT", "CREATE", "MAKE TABLE", "ADD"],
+    "answer": "CREATE",
+    "category": "SQL",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ML model uses entropy reduction?",
+    "options": ["SVM", "Decision Trees", "KNN", "Linear Regression"],
+    "answer": "Decision Trees",
+    "category": "Machine Learning",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which metric is used for one-class anomaly detection?",
+    "options": ["AUC", "Silhouette", "Reconstruction error", "Precision"],
+    "answer": "Reconstruction error",
+    "category": "Model Evaluation",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which Python module handles serialization?",
+    "options": ["pickle", "json", "sys", "csv"],
+    "answer": "pickle",
+    "category": "Python",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which process checks model performance on unseen data?",
+    "options": ["Training", "Testing", "Fitting", "Encoding"],
+    "answer": "Testing",
+    "category": "Model Evaluation",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which ML method combines multiple models?",
+    "options": ["Ensemble learning", "Regression", "Clustering", "Dimensionality reduction"],
+    "answer": "Ensemble learning",
+    "category": "Machine Learning",
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Which visualization tool is interactive?",
+    "options": ["Matplotlib", "Seaborn", "Plotly", "Pandas"],
+    "answer": "Plotly",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which technique fixes class imbalance?",
+    "options": ["One-hot encoding", "Oversampling", "Normalization", "Standardization"],
+    "answer": "Oversampling",
+    "category": "Data Preprocessing",
+    "difficulty": "Easy"
+  }
+
+
+]
